@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register - Chill</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-gray-100 flex items-center justify-center min-h-screen">
+    <div class="w-full max-w-md bg-white p-8 rounded-lg shadow-lg">
+      <div class="flex justify-center mb-6">
+        <img
+          src="./tugas_fsd_3b/IMG/chilllogo.jpg"
+          alt="Chill Logo"
+          class="h-12"
+        />
+      </div>
+      <form>
+        <div class="mb-4">
+          <label for="username" class="block text-sm font-medium text-gray-700"
+            >Username</label
+          >
+          <input
+            type="text"
+            id="username"
+            class="mt-1 block w-full px-3 py-2 bg-gray-50 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-primary-500 focus:border-primary-500 sm:text-sm"
+          />
+        </div>
+        <div class="mb-4">
+          <label for="password" class="block text-sm font-medium text-gray-700"
+            >Password</label
+          >
+          <input
+            type="password"
+            id="password"
+            class="mt-1 block w-full px-3 py-2 bg-gray-50 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-primary-500 focus:border-primary-500 sm:text-sm"
+          />
+        </div>
+        <div class="mb-4">
+          <label
+            for="confirm-password"
+            class="block text-sm font-medium text-gray-700"
+            >Konfirmasi Password</label
+          >
+          <input
+            type="password"
+            id="confirm-password"
+            class="mt-1 block w-full px-3 py-2 bg-gray-50 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-primary-500 focus:border-primary-500 sm:text-sm"
+          />
+        </div>
+        <div class="flex justify-between items-center mb-6">
+          <a href="#" class="text-sm text-primary-500 hover:underline"
+            >Sudah punya akun? Masuk</a
+          >
+        </div>
+        <button
+          class="w-full bg-primary-500 text-white py-2 rounded-md shadow-sm hover:bg-primary-600"
+        >
+          Daftar
+        </button>
+        <button
+          class="w-full mt-4 bg-white text-gray-700 py-2 rounded-md shadow-sm border hover:bg-gray-100 flex items-center justify-center"
+        >
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCWKGr_E3qM7B-B-_xwIZyF12n3sK3eM1q5w&s"
+            alt="Google Icon"
+            class="h-5 mr-2"
+          />
+          Daftar dengan Google
+        </button>
+      </form>
+    </div>
+  </body>
+</html>
